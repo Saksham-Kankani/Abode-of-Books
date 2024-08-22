@@ -21,7 +21,7 @@ function Card(props) {
                             <p>{props.desc}</p>
                             <div className="card-actions justify-between">
                                 <div className="badge badge-outline ">{props.cost}</div>
-                                <div className="badge badge-outline hover:bg-pink-400 hover:text-white">Buy Now</div>
+                                <div className="badge badge-outline hover:bg-pink-400 hover:text-white cursor-pointer">Buy Now</div>
                             </div>
                         </div>
                     </div>

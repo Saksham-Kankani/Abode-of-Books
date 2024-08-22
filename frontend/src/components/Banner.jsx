@@ -9,7 +9,7 @@ function Banner() {
        <div className='space-y-12'>
        <h1 className='text-4xl'>Hello,Come here to learn something <span className='text-pink-500'>new everyday!!!</span></h1>
        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-       <label className="input input-bordered flex items-center gap-2">
+       <label className="input input-bordered flex items-center gap-2  dark:bg-slate-900 dark:text-white dark:border-white">
        <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 16 16"
@@ -23,10 +23,10 @@ function Banner() {
      <input type="text" className="grow" placeholder="Email" />
      </label>
        </div>
-       <button className="btn btn-secondary mb-3 mt-6">Secondary</button>
+       <button className="btn btn-secondary mb-3 mt-6">Get Started</button>
        </div>
        <div className='w-full md:w-1/2 order-1 md:order-2'>
-        <img src={b} className='mt-28 ml-28 w-100 h-100 '/>
+        <img src={b} className='mt-28 ml-18 md:ml-28 w-100 h-100 '/>
        </div>
     </div>
     </>
